@@ -4,7 +4,7 @@ interface Aluno {
     notaTrabalho: number;
 }
 
-function verificaAprovacao(aluno: Aluno): void {
+function verifica(aluno: Aluno): void {
     const media = (aluno.notaProva + aluno.notaTrabalho) / 2;
 
     if (media > 6) {
