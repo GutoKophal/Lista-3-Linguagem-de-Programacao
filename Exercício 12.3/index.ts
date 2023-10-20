@@ -5,13 +5,13 @@ type Alunos = {
 };
 
 // Exemplo de uso do Type Alias:
-const aluno5: Aluno = {
+const aluno5: Alunos = {
     nome: "João",
     notaProva: 8.5,
     notaTrabalho: 9.0
 };
 
-const aluno6: Aluno = {
+const aluno6: Alunos = {
     nome: "Maria",
     notaProva: 7.0,
     notaTrabalho: 8.5
